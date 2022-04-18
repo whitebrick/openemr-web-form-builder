@@ -1,0 +1,102 @@
+TITLE		Patient Follow Up Form	Formulario de seguimiento del paciente	
+TEXT		Please fill out this form by...	Por favor, complete este formulario por ...	
+				
+GROUP A		Demographics	Demografía	
+A01	short_text	Last Name	Apellido	
+A02	short_text	First Name	Primer nombre	
+A03	date	DOB	Doblar	
+A04	short_text	Sex	Sexo	
+				
+GROUP B		HPI - Neck Pain	HPI - Dolor en el cuello	
+B01	long_text	Where is your pain located?	¿Dónde se encuentra tu dolor?	The patient is a (age) female / male who presents with pain located in the following area (s):
+B02	long_text	Please describe with as much detail as possible the location of your pain.	Por favor, describa con tanto detalle posible la ubicación de su dolor.	The pain is described as radiating/non-radiating
+B03	long_text	Does the pain radiate anywhere?	¿El dolor irradia en cualquier lugar?	The pain radiates to the following area(s):
+B04	long_text	If yes, where does it radiate to? Arm, hand, leg, foot	Si es así, ¿a dónde se irradia? Brazo, mano, pierna, pie	The patient was
+B05	long_text	How long has the pain been present? Please specify an exact date or at least a month in a year.	¿Cuánto tiempo ha estado presente el dolor? Por favor, especifique una fecha exacta o al menos un mes en un año.	The pain has been present for/ since:
+B06	long_text	Did the pain start suddenly or was it a gradual onset?	¿El dolor comenzó de repente o fue un inicio gradual?	The onset of the pain was
+B07	long_text	What is the character of the pain? Constant, intermittent, varying in intensity?	¿Cuál es el carácter del dolor? Constante, intermitente, variable en intensidad?	The pain has been described as
+B08	long_text	How severe is the pain? Please rate it on a scale of one to 10 with 10 being the most severe pain you have ever experienced.	¿Qué tan grave es el dolor? Por favor, califícalo en una escala de uno a 10 con 10 siendo el dolor más severo que ha experimentado.	The pain is rated at a level of on a visual analog pain scale, where 10 is the worst.
+B09	long_text	When comparing your back pain to your leg pain which one is worse? Please specify if the lower back pain is worse than the leg pain or the other way around.	Al comparar su dolor de espalda a su dolor de pierna, ¿cuál es peor? Por favor, especifique si el dolor de espalda baja es peor que el dolor en la pierna o al revés.	The intensity is greater in the when compared to the .
+B10	long_text	What associated symptoms do you have with your pain? Common symptoms can include numbness in your arm or leg, weakness in your arm or leg, tingling sensation, burning; please specify with detail the associated symptoms.	¿Qué síntomas asociados tienes con tu dolor? Los síntomas comunes pueden incluir adormecimiento en su brazo o pierna, debilidad en su brazo o pierna, sensación de hormigueo, ardor; Por favor, especifique con detalle los síntomas asociados.	Associated symptoms include :
+B11	long_text	Do you have any loss of balance?	¿Tienes alguna pérdida de equilibrio?	The patient reports loss of balance
+B12	long_text	Do you drop objects from your hands?	¿Caes objetos de tus manos?	The patient reports dropping of objects from hand.
+B13	long_text	What are the aggravating factors for your pain? Common aggravating factors include standing, walking, exercise, lifting, laying down in certain positions, driving, working, certain movements. Please specify with as much detail as possible the aggravating factors.	¿Cuáles son los factores agravantes para su dolor? Los factores agravantes comunes incluyen de pie, caminando, ejercicio, levantamiento, colocando en ciertas posiciones, conduciendo, trabajando, ciertos movimientos. Por favor, especifique con la mayor cantidad de detalles posible los factores agravantes.	Aggravating factors include
+B14	long_text	What are the alleviating factors of your pain? Common alleviating factors include laying down, sleeping, rest, medication, hot water, ice packs, physiotherapy. Please specify with as much detail as possible the alleviating factors.	¿Cuáles son los factores aliviables de su dolor? Los factores de alivio comunes incluyen establecer, dormir, descansar, medicamentos, agua caliente, paquetes de hielo, fisioterapia. Por favor, especifique con la mayor cantidad de detalles posible los factores aliviatorios.	Alleviating factors include
+				
+GROUP C		HPI - Low Back pain	HPI - Dolor de espalda baja	
+C01	long_text	Where is your pain located?	¿Dónde se encuentra tu dolor?	The patient is a (age) female / male who presents with pain located in the following area (s):
+C02	long_text	Please describe with as much detail as possible the location of your pain.	Por favor, describa con tanto detalle posible la ubicación de su dolor.	The pain is described as radiating/non-radiating
+C03	long_text	Does the pain radiate anywhere?	¿El dolor irradia en cualquier lugar?	The pain radiates to the following area(s):
+C04	long_text	If yes, where does it radiate to? Arm, hand, leg, foot	Si es así, ¿a dónde se irradia? Brazo, mano, pierna, pie	The patient was
+C05	long_text	How long has the pain been present? Please specify an exact date or at least a month in a year.	¿Cuánto tiempo ha estado presente el dolor? Por favor, especifique una fecha exacta o al menos un mes en un año.	The pain has been present for/ since:
+C06	long_text	Did the pain start suddenly or was it a gradual onset?	¿El dolor comenzó de repente o fue un inicio gradual?	The onset of the pain was
+C07	long_text	What is the character of the pain? Constant, intermittent, varying in intensity?	¿Cuál es el carácter del dolor? Constante, intermitente, variable en intensidad?	The pain has been described as
+C08	long_text	How severe is the pain? Please rate it on a scale of one to 10 with 10 being the most severe pain you have ever experienced.	¿Qué tan grave es el dolor? Por favor, califícalo en una escala de uno a 10 con 10 siendo el dolor más severo que ha experimentado.	The pain is rated at a level of on a visual analog pain scale, where 10 is the worst.
+C09	long_text	When comparing your back pain to your leg pain which one is worse? Please specify if the lower back pain is worse than the leg pain or the other way around.	Al comparar su dolor de espalda a su dolor de pierna, ¿cuál es peor? Por favor, especifique si el dolor de espalda baja es peor que el dolor en la pierna o al revés.	The intensity is greater in the when compared to the .
+C10	long_text	What associated symptoms do you have with your pain? Common symptoms can include numbness in your arm or leg, weakness in your arm or leg, tingling sensation, burning; please specify with detail the associated symptoms.	¿Qué síntomas asociados tienes con tu dolor? Los síntomas comunes pueden incluir adormecimiento en su brazo o pierna, debilidad en su brazo o pierna, sensación de hormigueo, ardor; Por favor, especifique con detalle los síntomas asociados.	Associated symptoms include :
+C11	long_text	Do you have any loss of balance?	¿Tienes alguna pérdida de equilibrio?	The patient reports loss of balance
+C12	long_text	Do you drop objects from your hands?	¿Caes objetos de tus manos?	The patient reports dropping of objects from hand.
+C13	long_text	What are the aggravating factors for your pain? Common aggravating factors include standing, walking, exercise, lifting, laying down in certain positions, driving, working, certain movements. Please specify with as much detail as possible the aggravating factors.	¿Cuáles son los factores agravantes para su dolor? Los factores agravantes comunes incluyen de pie, caminando, ejercicio, levantamiento, colocando en ciertas posiciones, conduciendo, trabajando, ciertos movimientos. Por favor, especifique con la mayor cantidad de detalles posible los factores agravantes.	Aggravating factors include
+C14	long_text	What are the alleviating factors of your pain? Common alleviating factors include laying down, sleeping, rest, medication, hot water, ice packs, physiotherapy. Please specify with as much detail as possible the alleviating factors.	¿Cuáles son los factores aliviables de su dolor? Los factores de alivio comunes incluyen establecer, dormir, descansar, medicamentos, agua caliente, paquetes de hielo, fisioterapia. Por favor, especifique con la mayor cantidad de detalles posible los factores aliviatorios.	Alleviating factors include
+				
+				
+GROUP D		Treatments	Tratos	
+D01	long_text	What treatments have you attempted to relieve your pain?	¿Qué tratamientos has intentado aliviar tu dolor?	Treatments previously tried include
+D02	long_text	Have you tried any physiotherapy or chiropractic treatment?	¿Has probado alguna fisioterapia o tratamiento quiropráctico?	Physiotherapy and/or chropractic has/has not been tried
+D03	long_text	If yes, how long have you tried these treatments for? Please also provide with date ranges or time intervals for this treatment.	En caso afirmativo, ¿cuánto tiempo ha intentado estos tratamientos? Por favor, también proporcione rangos de fecha o intervalos de tiempo para este tratamiento.	Physiotherapy was tried for:
+D04	long_text	Have these therapies been helpful and relieving your pain?	¿Han sido útiles estas terapias y aliviando tu dolor?	Physiotherapy has not/partially/temporarily helped with the pain
+D05	long_text	If so how helpful have they been and for how long of a time interval?	Si es así, ¿qué tan útiles han estado y durante el tiempo de intervalo de tiempo?	Physiotherapy was helpful for/ during:
+D06	long_text	Have you tried any medication for your pain?	¿Has intentado algún medicamento para su dolor?	Medication has/has not been tried
+D07	long_text	If yes, please provide the name or names of the medications that you have tried and for how long have you have tried them?	En caso afirmativo, proporcione el nombre o los nombres de los medicamentos que ha probado y por cuánto tiempo lo ha intentado.	Medications tried include:
+D08	long_text	Are you still taking these medications currently?	¿Sigues tomando estos medicamentos actualmente?	Medications taken currenlty include:
+D09	long_text	Have these medications been helpful and relieving your pain?	¿Han sido útiles estos medicamentos y aliviar su dolor?	Medications have not/partially/temporarily helped with the pain
+D10	long_text	If so how helpful have they been and for how long of a time interval?	Si es así, ¿qué tan útiles han estado y durante el tiempo de intervalo de tiempo?	Medications were helpful for/ during:
+D11	long_text	Have you tried any type of injections?	¿Has probado algún tipo de inyecciones?	Injections have/have not been tried
+D12	long_text	If yes, please provide the type of injection and the date at which the injection was completed. Common types of injections include epidural steroid injection, facet block, nerve blocks, median branch block, trigger point injections.	En caso afirmativo, proporcione el tipo de inyección y la fecha en que se completó la inyección. Los tipos comunes de inyecciones incluyen inyección de esteroides epidural, bloque de facetas, bloques nerviosos, bloque de rama mediana, inyecciones de puntos de activación.	Injections types tried inlude:
+D13	long_text	Have these injections been helpful and relieving your pain?	¿Las inyecciones han sido útiles y aliviando su dolor?	Injections have not/partially/temporarily helped with the pain
+D14	long_text	If so how helpful have they been and for how long of a time interval?	Si es así, ¿qué tan útiles han estado y durante el tiempo de intervalo de tiempo?	Injections were helpful for/ during:
+				
+GROUP E		Accident history	Historial de accidentes	
+E01	long_text	Was the pain the result of a motor vehicle accident?	¿Fue el dolor el resultado de un accidente de vehículos de motor?	The pain began after a motor vehicle accident.
+E02	long_text	Was the pain the result of a work injury?	¿Fue el dolor el resultado de una lesión laboral?	The pain started after a work injury
+E03	long_text	What is depend a result of any other type of injury? Examples may include falling off the ladder, other types of falls, construction injuries, assaults.	¿Qué depende del resultado de algún otro tipo de lesión? Los ejemplos pueden incluir la caída de la escalera, otros tipos de caídas, lesiones de la construcción, asaltos.	The pain started after the following injury:
+E04	long_text	Date of injury?	¿Fecha de la lesion?	The date of injury was:
+E05	long_text	If the pain was the result of a motor vehicle accident please provide further details about the accident with regards to what is the date of the accident?	Si el dolor fue el resultado de un accidente de vehículos de motor, proporcione más detalles sobre el accidente con respecto a lo que es la fecha del accidente?	The date of the motor vehicle accident was:
+E06	long_text	What exactly happened during the accident?	¿Qué sucedió exactamente durante el accidente?	The description of the accident is as follows:
+E07	long_text	Where were you hit from? This may be for example if rear end collision? A T-bone type collision? Is site swipe? It head on collision.	¿De dónde fue golpeado? ¿Esto puede ser, por ejemplo, si la colisión del extremo trasero? ¿Una colisión tipo T-Bone? ¿El sitio está deslizando? Se dirige a la colisión.	The actual collision is described as follows:
+E08	long_text	What type of vehicle was involved in the accident?	¿Qué tipo de vehículo estaba involucrado en el accidente?	The vehicles involved were the following:
+E09	long_text	What vehicle were you driving or riding in?	¿En qué vehículo estabas conduciendo o montando?	The vehicle the patient was driving was:
+E10	long_text	What is the other parties vehicle? Types of vehicle may include for example private automobiles, pick up trucks, commercial vans, box trucks, semi trucks or 18 wheelers, rideshare services such as Uber, municipal vehicles such as police cars, ambulance, city bus, school bus.	¿Qué es el vehículo de otras partes? Los tipos de vehículos pueden incluir, por ejemplo, automóviles privados, camiones de recogida, furgonetas comerciales, camiones, semi camiones o 18 ruedas, servicios de rideshare, como vehículos de Uber, Municipal, como automóviles de policía, ambulancia, autobús urbano, autobús escolar.	The other party's involved vehicle was:
+E11	long_text	Was there any third vehicle involved?	¿Hubo un tercer vehículo involucrado?	A third vehicle was involved
+E12	long_text	If yes, what type of vehicle was involved?	En caso afirmativo, ¿qué tipo de vehículo estaba involucrado?	The third vehicle was described as:
+E13	long_text	If your pain was the result of an accident or injury did you have similar type of pain prior to the accident?	Si su dolor fue el resultado de un accidente o lesión, ¿tuvo un tipo de dolor similar antes del accidente?	The patient did/did not have significant neck / back pain prior to the accident
+E14	long_text	If yes, when did you have the similar pain?	Si es así, ¿cuándo tuviste el dolor similar?	The patient was experiencing similar pain prior to the accident
+E15	long_text	What was the result of?	¿De qué fue el resultado?	The prior experienced pain was the result of:
+E16	long_text	Did this pain resolve or was it still persistent prior to the accident?	¿Se resolvió este dolor o aún era persistente antes del accidente?	The prior experienced pain had resolved/not resolved/partially resolved before the most recent accident
+E17	long_text	If this pain was persistent prior to the accident has the pain been aggravated by the accident that you have sustained recently?	Si este dolor era persistente antes del accidente, ¿el dolor ha sido agravado por el accidente que ha sufrido recientemente?	The pain was aggravated by the accident recently sustained
+E18	long_text	If yes, to what extent was the pain aggravated by the accident that you have recently sustained?	Si es así, ¿en qué medida se agravó el dolor por el accidente que recientemente ha sostenido?	The pain was aggravated to a mild/moderate/substatial extent
+E19	long_text	If you compare the rating of both pains prior and after the accident how would you rate the pain prior to the accident?	Si comparas la calificación de ambos dolores anteriores y después del accidente, ¿cómo calificaría el dolor antes del accidente?	The pain prior to the accident was rated as ___/10, whereas it is now rated as __/10
+E20	long_text	How would you rate the paint after the accident?	¿Cómo calificaría la pintura después del accidente?	The pain after the accident was rated as___/10
+E21	long_text	Have you visited any type of healthcare provider immediately after the accident?	¿Ha visitado algún tipo de proveedor de atención médica inmediatamente después del accidente?	Helathcare providers visited immediately after the accient include:
+E22	long_text	Did you go to the emergency room or urgent care pride immediately after the accident?	¿Fuiste a la sala de emergencias o el orgullo de atención urgente inmediatamente después del accidente?	An ER or urgent care visit was occurred immediately after the accident
+E23	long_text	What is the exact date of your visit to these healthcare provider or emergency room settings?	¿Cuál es la fecha exacta de su visita a estos proveedores de atención médica o configuración de la sala de emergencias?	Date of the visit with the healthcare provider or facility was:
+E24	long_text	What type of imaging have you received related to your accident or injury?	¿Qué tipo de imágenes ha recibido relacionado con su accidente o lesión?	Imaging completed include:
+E25	long_text	What type of treatment have you immediately received related to your accident or injury?	¿Qué tipo de tratamiento ha recibido de inmediato relacionado con su accidente o lesión?	Treatment received immediatley after the injury include:
+E26	long_text	If further detail is required please provide in the above answers.	Si se requiere más detalle, proporcione las respuestas anteriores.	Other details include:
+				
+GROUP F		Surgical History	Historia quirúrgica	
+F01	long_text	Have you had any prior surgery do your spine including neck or back?	¿Ha tenido alguna cirugía previa, haga su columna vertebral, incluido el cuello o la espalda?	Prior spine surgery was/was not performed
+F02	long_text	If yes, when was the surgery performed?	Si es así, ¿cuándo se realizó la cirugía?	Timing of surgery performed was
+F03	long_text	Please provide date or month and year.	Por favor, proporcione la fecha o el mes y el año.	Date of prior surgery was:
+F04	long_text	If yes, What type of surgery was performed on your spine? Common types of surgeries include decompression, laminectomy, discectomy, fusion, disc replacement.	En caso afirmativo, ¿qué tipo de cirugía se realizó en su columna vertebral? Los tipos comunes de cirugías incluyen descompresión, laminectomía, discectomía, fusión, reemplazo de disco.	Type of surgery performed include:
+F05	long_text	What facility was a surgery performed at? Who was your surgeon?	¿En qué instalación se realizó una cirugía en? ¿Quién era tu cirujano?	Facility and surgeon were:
+F06	long_text	Was your surgery made necessary as the result of an accident? If yes, please provide further details.	¿Su cirugía fue necesaria como resultado de un accidente? En caso afirmativo, proporcione más detalles.	The surgery was made necessary as a result of the accident. Other details include
+F07	long_text	Was the surgery successful?	¿Fue exitosa la cirugía?	The surgery was/was not succesful
+F08	long_text	If yes, how much pain relief did you obtain from the surgery.	Si es así, ¿cuánto alivio del dolor obtuvo de la cirugía?	The surgery provided pain relief to the following extent:
+F09	long_text	You’re still having any pain or issues related to the surgery?	¿Todavía estás teniendo algún dolor o problema relacionado con la cirugía?	The Patient is still having pain related to the surgery
+F10	long_text	If yes, please provide further details.	En caso afirmativo, proporcione más detalles.	The pain is described as follows:
+				
+GROUP G		Acknowledgement	Reconocimiento	
+G01	short_text	Do you agree to... Please type "I Agree" below or Please answer "Yes" below	¿Está de acuerdo? Por favor, escriba "Estoy de acuerdo" a continuación o conteste "Sí" a continuación	
+				
+TEXT		Here is some more text about agreement etc	Aquí hay un poco más de texto.	
