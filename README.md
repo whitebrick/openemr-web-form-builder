@@ -1,4 +1,5 @@
-# Custom Form & Narrative Reporting System
+# OpenEMR Web Form & Report Builder
+#### Custom forms with narrative reports from Spreadshet/CSV/TSV files 
 
 This set of php scripts automatically builds web forms from simple spreadsheet TSV files, saves the questions, responses and corresponding narratives as JSON data to a new table in the OpenEMR MySQL database and either links to an existing patient record or creates a new patient record in the OpenEMR `patient_data` table. The results can be viewed by clicking a button within a Layout Based form from a Patient Encounter in OpenEMR. The web forms support multiple sites and languages. An additional feature to auto-generate PDF reports incorporating the corresponding narrative is also supported.
 
@@ -8,11 +9,11 @@ In order for the forms to support multiple sites/databases, multiple languages a
 
 To avoid having to communicate long complicated URLs to patients, it is recommended that a free shortening service like [bitly](https://bitly.com/) is used to create a set of short URLs that are then redirected to the corresponding OpenEMR URL.
 
-eg the short URL: `https://bit.ly/tcfn-es`
+eg the short URL: `https://bit.ly/myclinic-intake-es`
 
 can be created and used to redirect to:
 
-`http://server/<context>/cforms/?type=intake&site=default&es=1&header=Texas Center For Neuroscience`
+`http://server/<context>/cforms/?type=intake&site=default&es=1&header=My Clinic`
 
 A set of these URLs can be generated for each of the different clinics/sites/languages and then copy-pasted into emails etc.
 
@@ -57,9 +58,9 @@ OR
 - *Column D:* Question in Spanish
 - *Column E:* Narrative used for template
 
-### Initial Installation & Set up
+### Installation
 
-Copy the `intake` directory to the top level OpenEMR directory, eg
+Clone/copy to a new directory "cforms" at the top level OpenEMR path, eg
 
 ```
 $ cd /var/www/html/openemr/cforms
@@ -107,7 +108,7 @@ CREATE TABLE IF NOT EXISTS cforms (
 )  ENGINE=INNODB;
 ```
 
-#### Patching OpenEMR
+#### Adding Buttons to OpenEMR UI
 
 - open the file `interface/forms/LBF/new.php`
 - locate the string `echo FeeSheetHtml::genProviderSelect('form_provider_id`
@@ -127,12 +128,12 @@ The narrative report is a simple PHP file that pulls all the data from MySQL cor
 
 ```php
 To print template values:
-Lookup the question id from the spreadsheet, eg A01
+Lookup the question/narrative line id from the spreadsheet, eg A01
 
-<?php echo $data->{"A01"}->{"g"}?>  This prints the group, eg Demographics
-<?php echo $data->{"A01"}->{"q"}?>  This prints the question, eg Last Name
-<?php echo $data->{"A01"}->{"r"}?>  This prints the response, eg Smith
-<?php echo $data->{"A01"}->{"n"}?>  This prints the narative, eg The patient's last name is
+$data->{"A01"}->{"g"}  // group, eg Demographics
+$data->{"A01"}->{"q"}  // question, eg Last Name
+$data->{"A01"}->{"r"}  // response, eg Smith
+$data->{"A01"}->{"n"}  // narrative, eg The patient's last name is
 ```
 
 See *report.php* for examples
